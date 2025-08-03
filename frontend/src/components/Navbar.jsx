@@ -6,7 +6,7 @@ import { MdOutlinePeopleAlt } from "react-icons/md";
 import { IoNotifications } from "react-icons/io5";
 
 import download from "../assets/download.png"
-import { userDataContext } from '../context/userContext';
+import { userDataContext } from '../context/Usercontext';
 import { authData } from '../context/Authcontext';
 import axios from 'axios';
 import { Navigate, useNavigate } from 'react-router-dom';
