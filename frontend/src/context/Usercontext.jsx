@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react'
 import { authData } from './Authcontext';
 export const userDataContext = createContext();
 
-function UserContext({ children }) {
+function Usercontext({ children }) {
     let [userData, setUserData] = useState(null);
     let {serverUrl}=useContext(authData)
 
@@ -40,4 +40,4 @@ function UserContext({ children }) {
   )
 }
 
-export default UserContext
+export default Usercontext
